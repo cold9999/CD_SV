@@ -1,0 +1,418 @@
+[22:26:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:26:36] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[22:26:37] [Worker-Main-2/INFO]: Loaded 7 recipes
+[22:26:38] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[22:26:38] [Server thread/INFO]: Loading properties
+[22:26:38] [Server thread/INFO]: This server is running Paper version git-Paper-349 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: 9472d38)
+[22:26:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:26:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:26:39] [Server thread/INFO]: Default game type: SURVIVAL
+[22:26:39] [Server thread/INFO]: Generating keypair
+[22:26:39] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:26:39] [Server thread/INFO]: Using default channel type
+[22:26:39] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[22:26:39] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:26:39] [Server thread/INFO]: [Skript] Loading Skript v2.5.3
+[22:26:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:26:39] [Server thread/INFO]: Preparing level "world"
+[22:26:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:26:40] [Server thread/INFO]: Time elapsed: 223 ms
+[22:26:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:26:40] [Server thread/INFO]: Time elapsed: 137 ms
+[22:26:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:26:40] [Server thread/INFO]: Time elapsed: 92 ms
+[22:26:40] [Server thread/INFO]: [Skript] Enabling Skript v2.5.3
+[22:26:41] [Server thread/ERROR]: [Skript] Parsing block state [level=0] failed! (brewing.sk, line 80: {cauldron level} cauldron?s = minecraft:cauldron')
+[22:26:41] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:cauldron[level=0]
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.createNewData(CraftBlockData.java:550)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.lambda$newData$1(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.newData(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createBlockData(CraftServer.java:2417)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1890)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:357)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:277)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:702)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:602)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:120)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:496)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:482)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:465)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:458)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:424)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:396)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.onEnable(Skript.java:403)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:730)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:317)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1217)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:26:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:cauldron does not have property 'level' at position 19: ...:cauldron[<--[HERE]
+[22:26:41] [Server thread/ERROR]: [Skript] Parsing block state [level=1] failed! (brewing.sk, line 80: {cauldron level} cauldron?s = minecraft:cauldron')
+[22:26:41] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:cauldron[level=1]
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.createNewData(CraftBlockData.java:550)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.lambda$newData$1(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.newData(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createBlockData(CraftServer.java:2417)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1890)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:357)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:277)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:702)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:602)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:120)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:496)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:482)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:465)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:458)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:424)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:396)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.onEnable(Skript.java:403)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:730)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:317)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1217)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:26:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:cauldron does not have property 'level' at position 19: ...:cauldron[<--[HERE]
+[22:26:41] [Server thread/ERROR]: [Skript] Parsing block state [level=2] failed! (brewing.sk, line 80: {cauldron level} cauldron?s = minecraft:cauldron')
+[22:26:41] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:cauldron[level=2]
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.createNewData(CraftBlockData.java:550)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.lambda$newData$1(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.newData(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createBlockData(CraftServer.java:2417)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1890)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:357)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:277)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:702)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:602)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:120)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:496)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:482)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:465)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:458)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:424)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:396)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.onEnable(Skript.java:403)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:730)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:317)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1217)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:26:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:cauldron does not have property 'level' at position 19: ...:cauldron[<--[HERE]
+[22:26:41] [Server thread/ERROR]: [Skript] Parsing block state [level=3] failed! (brewing.sk, line 80: {cauldron level} cauldron?s = minecraft:cauldron')
+[22:26:41] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:cauldron[level=3]
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.createNewData(CraftBlockData.java:550)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.lambda$newData$1(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.newData(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createBlockData(CraftServer.java:2417)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1890)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:357)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:277)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:702)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:602)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:120)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:496)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:482)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:465)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:458)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:424)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:396)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.onEnable(Skript.java:403)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:730)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:317)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1217)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:26:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:cauldron does not have property 'level' at position 19: ...:cauldron[<--[HERE]
+[22:26:41] [Server thread/ERROR]: [Skript] Parsing block state [level=3] failed! (brewing.sk, line 80: {cauldron level} cauldron?s = minecraft:cauldron')
+[22:26:41] [Server thread/WARN]: java.lang.IllegalArgumentException: Could not parse data: minecraft:cauldron[level=3]
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.createNewData(CraftBlockData.java:550)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.lambda$newData$1(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1220)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.block.data.CraftBlockData.newData(CraftBlockData.java:525)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.createBlockData(CraftServer.java:2417)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.Bukkit.createBlockData(Bukkit.java:1890)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.bukkitutil.block.NewBlockCompat.createBlockValues(NewBlockCompat.java:357)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesProvider.addAlias(AliasesProvider.java:277)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadSingleAlias(AliasesParser.java:702)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.loadAlias(AliasesParser.java:602)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.AliasesParser.load(AliasesParser.java:120)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:496)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:482)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.lambda$1(Aliases.java:465)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadDirectory(Aliases.java:458)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.loadInternal(Aliases.java:424)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.aliases.Aliases.load(Aliases.java:396)
+[22:26:41] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.onEnable(Skript.java:403)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugin(CraftServer.java:561)
+[22:26:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_17_R1.CraftServer.enablePlugins(CraftServer.java:475)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld(MinecraftServer.java:730)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.init(DedicatedServer.java:317)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1217)
+[22:26:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[22:26:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:26:41] [Server thread/WARN]: Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Block minecraft:cauldron does not have property 'level' at position 19: ...:cauldron[<--[HERE]
+[22:26:42] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.6 (you're currently running 2.5.3)
+[22:26:42] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: <aqua><u><link:https://github.com/SkriptLang/Skript/releases/download/2.6/Skript.jar>https://github.com/SkriptLang/Skript/releases/download/2.6/Skript.jar
+[22:26:43] [Server thread/ERROR]: [Skript] Minecraft id minecraft:grass_path is not valid (decoration.sk, line 416: grass path [block]?s = minecraft:grass_path')
+[22:26:43] [Server thread/ERROR]: [Skript] Minecraft id minecraft:grass_path is not valid (decoration.sk, line 416: grass path [block]?s = minecraft:grass_path')
+[22:26:46] [Server thread/INFO]: [Skript] Loaded 128184 aliases in 5102ms
+[22:26:47] [Server thread/INFO]: [Skript]  ~ created by & ? Peter G?ttinger aka Njol ~
+[22:26:47] [Server thread/INFO]: Starting GS4 status listener
+[22:26:47] [Server thread/INFO]: Thread Query Listener started
+[22:26:47] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[22:26:47] [Server thread/INFO]: Running delayed init tasks
+[22:26:47] [Server thread/INFO]: [Skript] Loading variables...
+[22:26:47] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[22:26:47] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[22:26:47] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 1 trigger and 2 commands in 0.13 seconds
+[22:26:47] [Server thread/INFO]: [Skript] Finished loading.
+[22:26:47] [Server thread/INFO]: Done (8.668s)! For help, type "help"
+[22:26:47] [Server thread/INFO]: Timings Reset
+[22:28:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@745af122[id=618fc124-eeab-421d-a0e0-17d619a6fab6,name=Cute__Cold,properties={textures=[com.mojang.authlib.properties.Property@7a7b180b]},legacy=false] (/127.0.0.1:58417) lost connection: Disconnected
+[22:30:57] [User Authenticator #2/INFO]: UUID of player HOLY_BACK is 0786f549-2485-4512-978b-89bb957c74e0
+[22:30:57] [Server thread/INFO]: HOLY_BACK joined the game
+[22:30:57] [Server thread/INFO]: HOLY_BACK[/182.224.197.15:36157] logged in with entity id 137 at ([world_nether]128.52555772368768, 34.0, 147.19616467559527)
+[22:31:24] [User Authenticator #2/INFO]: UUID of player Cute__Cold is 618fc124-eeab-421d-a0e0-17d619a6fab6
+[22:31:24] [Server thread/INFO]: Cute__Cold joined the game
+[22:31:24] [Server thread/INFO]: Cute__Cold[/222.101.236.124:58522] logged in with entity id 417 at ([world_nether]406.741884622451, 64.0, 869.9946990914882)
+[22:33:21] [User Authenticator #3/INFO]: UUID of player HaliBBO is cb884e5f-5566-4972-8ab5-ec1d8e7315c7
+[22:33:21] [Server thread/INFO]: HaliBBO joined the game
+[22:33:21] [Server thread/INFO]: HaliBBO[/175.115.43.39:1374] logged in with entity id 1091 at ([world]233.5, 65.0, 182.5)
+[22:33:24] [Async Chat Thread - #0/INFO]: <HaliBBO> 테러하러옴
+[22:33:30] [Async Chat Thread - #0/INFO]: <Cute__Cold> 저 집 없음
+[22:33:40] [Async Chat Thread - #0/INFO]: <HaliBBO> 티피없음 ?
+[22:33:44] [Async Chat Thread - #0/INFO]: <Cute__Cold> yes
+[22:33:45] [Async Chat Thread - #0/INFO]: <HaliBBO> 오피 안주면 홀리백
+[22:33:53] [Async Chat Thread - #0/INFO]: <Cute__Cold> ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
+[22:33:58] [Async Chat Thread - #0/INFO]: <HaliBBO> 홀리백 장년에 탈모걸려서
+[22:33:58] [Server thread/INFO]: Cute__Cold issued server command: /debug
+[22:33:59] [Async Chat Thread - #0/INFO]: <HaliBBO> 치료하고있음
+[22:34:08] [Async Chat Thread - #0/INFO]: <HaliBBO> ㅜㅡㅜ
+[22:34:16] [Async Chat Thread - #0/INFO]: <HaliBBO> 꽃같은 청춘
+[22:34:26] [Async Chat Thread - #0/INFO]: <HaliBBO> 스폰으로와서
+[22:34:29] [Async Chat Thread - #0/INFO]: <HaliBBO> 템 안받치면 홀리백
+[22:34:40] [Server thread/INFO]: HOLY_BACK issued server command: /kick HaliBBO
+[22:34:40] [Server thread/INFO]: HaliBBO lost connection: Kicked by an operator
+[22:34:40] [Server thread/INFO]: HaliBBO left the game
+[22:34:40] [Server thread/INFO]: [HOLY_BACK: Kicked HaliBBO: Kicked by an operator]
+[22:34:45] [User Authenticator #4/INFO]: UUID of player HaliBBO is cb884e5f-5566-4972-8ab5-ec1d8e7315c7
+[22:34:45] [Server thread/INFO]: HaliBBO joined the game
+[22:34:45] [Server thread/INFO]: HaliBBO[/175.115.43.39:1386] logged in with entity id 2453 at ([world]231.5026883810269, 63.796735600668704, 237.63936351053187)
+[22:34:56] [Server thread/INFO]: Cute__Cold issued server command: /give HaliBBO minecraft:cooked_porkchop 32
+[22:34:56] [Server thread/INFO]: [Cute__Cold: Gave 32 [Cooked Porkchop] to HaliBBO]
+[22:35:28] [Server thread/INFO]: Villager EntityVillager['Nitwit'/34, uuid='6a4e5a56-cab3-4d77-a344-5c521deb4356', l='ServerLevel[world]', x=217.62, y=62.48, z=306.55, cpos=[13, 19], tl=82305, v=true, rR=null] died, message: 'Nitwit was slain by HaliBBO'
+[22:35:49] [Async Chat Thread - #1/INFO]: <HaliBBO> 티피한번만 쓰게해주세요
+[22:35:54] [Async Chat Thread - #1/INFO]: <HaliBBO> 뽀뽀해드릴게요
+[22:36:00] [Server thread/INFO]: Cute__Cold issued server command: /deop HOLY_BACK
+[22:36:00] [Server thread/INFO]: [Cute__Cold: Made HOLY_BACK no longer a server operator]
+[22:36:09] [Server thread/INFO]: Cute__Cold issued server command: /op HOLY_BACK
+[22:36:09] [Server thread/INFO]: [Cute__Cold: Made HOLY_BACK a server operator]
+[22:36:55] [Async Chat Thread - #2/INFO]: <HaliBBO> 나도보내주세요
+[22:37:34] [Server thread/INFO]: HaliBBO lost connection: Disconnected
+[22:37:34] [Server thread/INFO]: HaliBBO left the game
+[22:37:49] [Server thread/INFO]: Cute__Cold issued server command: /execute in minecraft:overworld run tp HOLY_BACK 0 80 0
+[22:37:49] [Server thread/INFO]: [Cute__Cold: Teleported HOLY_BACK to 0.500000, 80.000000, 0.500000]
+[22:42:09] [Server thread/INFO]: Cute__Cold has completed the challenge [Subspace Bubble]
+[22:43:39] [Server thread/WARN]: Cute__Cold moved wrongly!
+[22:47:03] [Server thread/INFO]: Cute__Cold has made the advancement [Eye Spy]
+[22:47:05] [Server thread/INFO]: HOLY_BACK has made the advancement [A Terrible Fortress]
+[22:47:24] [Server thread/INFO]: Cute__Cold has made the advancement [The End?]
+[22:47:24] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[22:47:24] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[22:48:17] [Server thread/INFO]: HOLY_BACK has made the advancement [Into Fire]
+[22:55:34] [Server thread/INFO]: HOLY_BACK has made the advancement [Oh Shiny]
+[22:56:00] [Server thread/INFO]: Cute__Cold issued server command: /execute in minecraft:overworld run tp HOLY_BACK 0 80 0
+[22:56:00] [Server thread/INFO]: [Cute__Cold: Teleported HOLY_BACK to 0.500000, 80.000000, 0.500000]
+[22:58:14] [Server thread/INFO]: Cute__Cold has made the advancement [Free the End]
+[22:58:17] [Server thread/INFO]: HOLY_BACK has made the advancement [Best Friends Forever]
+[22:59:07] [Server thread/INFO]: Cute__Cold has made the advancement [Remote Getaway]
+[23:00:58] [Server thread/WARN]: Cute__Cold moved too quickly! 1.7420428076853796,-27.0,3.2512787060697974
+[23:00:58] [Server thread/WARN]: Cute__Cold moved too quickly! 1.7420428076853796,-27.0,3.2512787060697974
+[23:01:03] [Server thread/WARN]: Cute__Cold was kicked for floating too long!
+[23:01:03] [Server thread/INFO]: Cute__Cold lost connection: Flying is not enabled on this server
+[23:01:03] [Server thread/INFO]: Cute__Cold left the game
+[23:01:05] [User Authenticator #5/INFO]: UUID of player Cute__Cold is 618fc124-eeab-421d-a0e0-17d619a6fab6
+[23:01:06] [Server thread/INFO]: Cute__Cold joined the game
+[23:01:06] [Server thread/INFO]: Cute__Cold[/222.101.236.124:56855] logged in with entity id 32463 at ([world_the_end]156.50632517553748, 100.65577819998491, 1830.4479002518785)
+[23:01:15] [Server thread/WARN]: Cute__Cold moved too quickly! -7.077313298396859,-19.0,-6.1449937108675385
+[23:01:15] [Server thread/WARN]: Cute__Cold moved too quickly! -7.077313298396859,-19.0,-6.1449937108675385
+[23:01:22] [Server thread/WARN]: Cute__Cold moved too quickly! 0.26570035354507127,-32.0,-0.8009552733162764
+[23:01:22] [Server thread/WARN]: Cute__Cold moved too quickly! 0.26570035354507127,-32.0,-0.8009552733162764
+[23:01:22] [Server thread/WARN]: Cute__Cold moved too quickly! 0.26570035354507127,-32.0,-0.8009552733162764
+[23:01:31] [Server thread/WARN]: Cute__Cold moved too quickly! -6.006864773800771,-40.0,3.02253337250022
+[23:01:31] [Server thread/WARN]: Cute__Cold moved too quickly! -6.006864773800771,-40.0,3.02253337250022
+[23:01:31] [Server thread/WARN]: Cute__Cold moved too quickly! -6.006864773800771,-40.0,3.02253337250022
+[23:01:38] [Server thread/WARN]: Cute__Cold moved too quickly! -1.7669185138709054,-46.0,-2.161652117611993
+[23:01:38] [Server thread/WARN]: Cute__Cold moved too quickly! -1.7669185138709054,-46.0,-2.161652117611993
+[23:01:49] [Server thread/WARN]: Cute__Cold moved too quickly! 2.5677559602443125,-42.0,0.5222208025274995
+[23:01:49] [Server thread/WARN]: Cute__Cold moved too quickly! 2.5677559602443125,-42.0,0.5222208025274995
+[23:02:04] [Server thread/WARN]: Cute__Cold moved too quickly! 6.1482386152035815,-29.0,2.4588993035072235
+[23:02:04] [Server thread/WARN]: Cute__Cold moved too quickly! 6.1482386152035815,-29.0,2.4588993035072235
+[23:02:19] [Server thread/INFO]: HOLY_BACK issued server command: /locate stronghold
+[23:02:19] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:02:48] [Server thread/INFO]: Cute__Cold issued server command: /execute at HOLY_BACK run rocate stronghold
+[23:03:05] [Server thread/WARN]: Cute__Cold moved too quickly! 6.953395092248002,-42.0,4.323190814795453
+[23:03:05] [Server thread/WARN]: Cute__Cold moved too quickly! 6.953395092248002,-42.0,4.323190814795453
+[23:03:05] [Server thread/WARN]: Cute__Cold moved too quickly! 6.953395092248002,-42.0,4.323190814795453
+[23:03:05] [Server thread/WARN]: Cute__Cold moved too quickly! 6.953395092248002,-42.0,4.323190814795453
+[23:03:14] [Server thread/WARN]: Cute__Cold moved too quickly! 0.8002999442114742,-29.0,-0.731163588577374
+[23:03:14] [Server thread/WARN]: Cute__Cold moved too quickly! 0.8002999442114742,-29.0,-0.731163588577374
+[23:03:29] [Server thread/WARN]: Cute__Cold moved too quickly! -4.257548030849762,-32.0,2.9346750464203524
+[23:03:29] [Server thread/WARN]: Cute__Cold moved too quickly! -4.257548030849762,-32.0,2.9346750464203524
+[23:03:39] [Server thread/INFO]: Cute__Cold has made the advancement [The City at the End of the Game]
+[23:04:10] [Async Chat Thread - #3/INFO]: <Cute__Cold> HOLY_BACK issued server command: /locate stronghold
+[23:05:52] [Server thread/WARN]: Cute__Cold moved too quickly! -1.3526090448344803,-30.0,1.6088493870802267
+[23:05:52] [Server thread/WARN]: Cute__Cold moved too quickly! -1.3526090448344803,-30.0,1.6088493870802267
+[23:06:14] [Server thread/WARN]: Cute__Cold was kicked for floating too long!
+[23:06:14] [Server thread/INFO]: Cute__Cold lost connection: Flying is not enabled on this server
+[23:06:14] [Server thread/INFO]: Cute__Cold left the game
+[23:06:16] [User Authenticator #6/INFO]: UUID of player Cute__Cold is 618fc124-eeab-421d-a0e0-17d619a6fab6
+[23:06:16] [Server thread/INFO]: Cute__Cold joined the game
+[23:06:16] [Server thread/INFO]: Cute__Cold[/222.101.236.124:56888] logged in with entity id 40668 at ([world_the_end]661.4369439777993, 53.253970374153376, 1321.700209482063)
+[23:06:26] [Server thread/WARN]: Cute__Cold moved too quickly! 1.5485295869001447,-27.0,-1.6712941357745876
+[23:06:28] [Server thread/WARN]: Cute__Cold moved too quickly! 1.7882775340179364,-12.0,-3.344956045608569
+[23:06:32] [Server thread/WARN]: Cute__Cold moved too quickly! -6.745514668683484,-20.0,1.3078057067341433
+[23:06:32] [Server thread/WARN]: Cute__Cold moved too quickly! -6.745514668683484,-20.0,1.3078057067341433
+[23:07:06] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:07:39] [Server thread/WARN]: Cute__Cold moved too quickly! 6.245520023371228,-27.0,-5.850502639146043
+[23:07:39] [Server thread/WARN]: Cute__Cold moved too quickly! 6.245520023371228,-27.0,-5.850502639146043
+[23:11:10] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:11:13] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:11:43] [Server thread/INFO]: HOLY_BACK has made the advancement [Eye Spy]
+[23:11:44] [Server thread/WARN]: Cute__Cold moved too quickly! 5.03401043599365,-41.0,-7.7738413106576445
+[23:11:44] [Server thread/WARN]: Cute__Cold moved too quickly! 5.03401043599365,-41.0,-7.7738413106576445
+[23:11:44] [Server thread/WARN]: Cute__Cold moved too quickly! 5.03401043599365,-41.0,-7.7738413106576445
+[23:11:44] [Server thread/WARN]: Cute__Cold moved too quickly! 5.03401043599365,-41.0,-7.7738413106576445
+[23:11:47] [Server thread/WARN]: Cute__Cold moved too quickly! -1.9975741181408466,-22.0,1.484007594454944
+[23:11:47] [Server thread/WARN]: Cute__Cold moved too quickly! -1.9975741181408466,-22.0,1.484007594454944
+[23:11:49] [Server thread/WARN]: Cute__Cold was kicked for floating too long!
+[23:11:49] [Server thread/INFO]: Cute__Cold lost connection: Flying is not enabled on this server
+[23:11:49] [Server thread/INFO]: Cute__Cold left the game
+[23:11:50] [User Authenticator #7/INFO]: UUID of player Cute__Cold is 618fc124-eeab-421d-a0e0-17d619a6fab6
+[23:11:50] [Server thread/INFO]: Cute__Cold joined the game
+[23:11:50] [Server thread/INFO]: Cute__Cold[/222.101.236.124:56905] logged in with entity id 48113 at ([world_the_end]-1392.4495166653635, 67.39050039031794, 23.69064657286591)
+[23:11:53] [Server thread/WARN]: Cute__Cold moved too quickly! 5.731802002156428,-16.0,1.2800507906016207
+[23:11:56] [Server thread/WARN]: Cute__Cold moved too quickly! -6.669114858922285,-13.0,3.3675776744569106
+[23:12:04] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:14:15] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:15:09] [Server thread/WARN]: Cute__Cold moved too quickly! -2.610620950950306,-15.0,-1.6733573751134827
+[23:15:53] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:16:02] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:16:05] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:16:06] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:16:08] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:16:12] [Server thread/WARN]: Cute__Cold moved too quickly! -2.6045466796140317,-53.0,2.644637475287709
+[23:16:12] [Server thread/WARN]: Cute__Cold moved too quickly! -2.6045466796140317,-53.0,2.644637475287709
+[23:16:12] [Server thread/WARN]: Cute__Cold moved too quickly! -2.6045466796140317,-53.0,2.644637475287709
+[23:16:17] [Server thread/WARN]: Cute__Cold moved too quickly! 3.540497177482848,-23.0,-6.611346317945845
+[23:16:17] [Server thread/WARN]: Cute__Cold moved too quickly! 3.540497177482848,-23.0,-6.611346317945845
+[23:16:18] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:17:09] [Server thread/INFO]: Cute__Cold has reached the goal [Sky's the Limit]
+[23:17:21] [Server thread/INFO]: Cute__Cold has made the advancement [Local Brewery]
+[23:17:56] [Server thread/WARN]: Cute__Cold moved too quickly! -4.2430186688307,-57.0,5.571962080144431
+[23:17:56] [Server thread/WARN]: Cute__Cold moved too quickly! -4.2430186688307,-57.0,5.571962080144431
+[23:17:56] [Server thread/INFO]: Cute__Cold has completed the challenge [Great View From Up Here]
+[23:19:26] [Server thread/WARN]: Cute__Cold moved too quickly! 2.1391656165301356,-59.0,5.136054203712092
+[23:19:26] [Server thread/WARN]: Cute__Cold moved too quickly! 2.1391656165301356,-59.0,5.136054203712092
+[23:19:26] [Server thread/WARN]: Cute__Cold moved too quickly! 2.1391656165301356,-59.0,5.136054203712092
+[23:19:26] [Server thread/WARN]: Cute__Cold moved too quickly! 2.1391656165301356,-59.0,5.136054203712092
+[23:19:36] [Server thread/INFO]: Cute__Cold issued server command: /locate endcity
+[23:22:26] [Server thread/INFO]: Cute__Cold issued server command: /gamemode spectator
+[23:22:26] [Server thread/INFO]: [Cute__Cold: Set own game mode to Spectator Mode]
+[23:22:49] [Async Chat Thread - #4/INFO]: <Cute__Cold> -521 1771
+[23:23:02] [Server thread/INFO]: Cute__Cold issued server command: /tp 0 80 0
+[23:23:02] [Server thread/INFO]: [Cute__Cold: Teleported Cute__Cold to 0.500000, 80.000000, 0.500000]
+[23:23:02] [Server thread/WARN]: Cute__Cold moved too quickly! 537.2958357114554,42.75661247543725,-1755.622245586853
+[23:23:06] [Server thread/INFO]: Cute__Cold issued server command: /gamemode survival
+[23:23:06] [Server thread/INFO]: [Cute__Cold: Set own game mode to Survival Mode]
+[23:26:36] [Server thread/INFO]: Cute__Cold issued server command: /stop
+[23:26:36] [Server thread/INFO]: [Cute__Cold: Stopping the server]
+[23:26:36] [Server thread/INFO]: Stopping server
+[23:26:36] [Server thread/INFO]: [Skript] Disabling Skript v2.5.3
+[23:26:36] [Server thread/INFO]: Saving players
+[23:26:36] [Server thread/INFO]: HOLY_BACK lost connection: Server closed
+[23:26:36] [Server thread/INFO]: HOLY_BACK left the game
+[23:26:36] [Server thread/INFO]: Cute__Cold lost connection: Server closed
+[23:26:36] [Server thread/INFO]: Cute__Cold left the game
+[23:26:36] [Server thread/INFO]: Saving worlds
+[23:26:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:26:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:26:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:26:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:26:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:26:46] [Server thread/INFO]: Flushing Chunk IO
+[23:26:46] [Server thread/INFO]: Closing Thread Pool
+[23:26:46] [Server thread/INFO]: Closing Server

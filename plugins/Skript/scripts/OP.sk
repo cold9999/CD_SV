@@ -1,0 +1,5 @@
+command /giveop:
+	description: Just give a OP to you
+	trigger:
+		make console execute command "/op %player%"
+	
